@@ -74,3 +74,7 @@ python ip_query_server.py
 ```bash
 http://127.0.0.1:5000
 ```
+ps.如果要自己打包成exe安装好pyinstaller使用如下命令即可
+```bash
+pyinstaller --onefile --add-data "ip_data.xlsx;." --add-data "index.html;." --add-data "static;static"  ip_query_server.py
+```
