@@ -51,7 +51,12 @@
 ---
 
 ## 🚀 快速开始
+第一种方式：直接下载我打包成exe的zip压缩包，双击ip_query_server.exe执行即可
 
+https://github.com/returnwrong/ipsearch/releases/download/v1.0/ipquery0.1.zip
+
+
+第二种方式：
 ### 1️安装依赖
 
 ```bash
@@ -61,7 +66,7 @@ pip install flask openpyxl
 ### 2启动服务
 
 ```bash
-pip python ip_query_server.py
+python ip_query_server.py
 ```
 
 ### 3访问系统
